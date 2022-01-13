@@ -2,10 +2,9 @@ const MAX_DEPTH = 255;
 const maxCanvasW = 800;
 const maxCanvasH = 800;
 
-// config variables
+// Config variables default values
 let noiseInc = 0.05;
 let deltaAngle = 0.1;
-let monoChrome = true;
 
 let noiseRectW = maxCanvasW * 3 / 8;
 let perlW = noiseRectW / 2;
